@@ -1,17 +1,18 @@
 # MatchMate
 
-An iOS matchmaking demo app using SwiftUI + UIKit + Core Data.
+## ✨ Features
+Loads 10 profiles initially, and auto-loads more as you scroll down.
+Accept / Decline functionality  
+Track who you've accepted or rejected, stored locally.
+Offline caching with **Core Data**  
+Image loading and caching using **Kingfisher**
+SwiftUI-powered card UI inside UIKit table view
 
-## Features
-- Offline caching via Core Data
-- SwiftUI-powered cards inside UIKit table view
-- Image prefetching & disk caching via Kingfisher
+---
 
-## Setup
-1. Clone the repo
-2. Run `pod install`
-3. Open `MatchMate.xcworkspace` in Xcode
+## 🛠 Setup
 
-## Requirements
-- iOS 16.0+
-- Xcode 15+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/your-username/MatchMate.git
+
